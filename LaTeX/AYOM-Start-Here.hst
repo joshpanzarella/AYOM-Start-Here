@@ -1,0 +1,3 @@
+\def \vhCurrentVersion {1.0}
+\def \vhCurrentDate {\today }
+\newsetsimple \vhAllAuthorsSet {JRP}
