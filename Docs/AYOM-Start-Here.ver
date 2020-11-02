@@ -4,7 +4,11 @@
  & \textbf {\vhauthorname }
  & \textbf {\vhchangename }\\[1ex]
 1.0
- & \today 
+ & 10-19-2020
  & \listset {JRP}
  & Created\\
+1.1
+ & 10-25-2020
+ & \listset {JRP}
+ & Updated Title Page\\
 \end {longtable}

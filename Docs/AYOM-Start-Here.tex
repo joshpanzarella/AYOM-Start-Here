@@ -38,14 +38,30 @@ DefaultFeatures={Ligatures=Common}]{plex-otf} %
 
 \begin{document}
 	
-\begin{titlingpage}
-	\maketitle
-\end{titlingpage}
+\begin{titlepage}
+	\centering
+	\vfill
+	\includegraphics[scale=.25]{../Images/St-Logo-Black}
+	\vfill
+	{\bfseries\Large
+		Assemble Your Own Modular: Start Here\\
+		\vskip.3cm
+		Shapetaker Audio\\
+		\vskip.3cm
+		\date{\today}
+	}   
+	\vfill
+	\vfill
+	\vfill
+	\vfill
+	\vfill
+\end{titlepage}
 
 \newpage
 
 \begin{versionhistory}
-	\vhEntry{1.0}{\today}{JRP}{Created}
+	\vhEntry{1.0}{10-19-2020}{JRP}{Created}
+	\vhEntry{1.1}{10-25-2020}{JRP}{Updated Title Page}
 \end{versionhistory}
 \vspace{1cm}
 \tableofcontents
@@ -103,7 +119,9 @@ If you're interested in spending a bit more money to get a somewhat better start
 	\item{Transistor Matching Circuit} - \emph{(coming soon...}) This differs from the transistor tester above. This circuit is used to make matching NPN and PNP transistor circuits much easier. We use the Ian Frtiz method which you can find \href{https://dragonflyalley.com/synth/images/TransistorMatching/ianFritz-transmat0011_144.pdf}{here}. You can find a more detailed walk-through of how to match transistors in the VCF guide \emph{(coming soon...)}.
 	\item
 	\href{https://www.amazon.com/Breadboard-Solderless-Prototype-PCB-Board/dp/B073XH9GCQ/ref=sr_1_1_sspa?dchild=1&keywords=breadboard&qid=1602427417&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyRUFRR0pLQTZMMUw3JmVuY3J5cHRlZElkPUEwMzA4NzcwMVBCNTJNVzk5OTExSCZlbmNyeXB0ZWRBZElkPUEwMjQ1ODM4MTdEVVZFSkVFVEk2WSZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=}{Breadboard} - In the event that you want to test some portion of a circuit, or you have an idea for your own, you're undoubtedly going to need a breadboard. This would be in the essential category if this list was geared to prototyping or design. Choose you're path!
-	\item Heat Gun
+	\item \href{https://www.amazon.com/Homidic-Handheld-Electric-Portable-Embossing/dp/B07P5WFHJ7/ref=sr_1_2?dchild=1&keywords=heat+gun&qid=1603656328&sr=8-2}{Heat Gun} - This could be used when using heat shrink tubing around wires, however, there will not be too many instances of that in this series (and frankly, at all in DIY modular synth work). You can get away with using a soldering iron to shrink the heat shrink tubing, this is just a convenience.
+	\item
+	\href{https://www.amazon.com/Digital-Caliper-Adoric-Calipers-Measuring/dp/B07DFFYCXS/ref=sr_1_3?crid=272AJLCMP5OS8&dchild=1&keywords=digital+caliper&qid=1603061959&sprefix=digital+cal%2Caps%2C145&sr=8-3}{Digital Calipers} - Extremely handy for measuring everything. I have used these many times outside of this application.
 \end{itemize} 
 Please keep in mind! You will not necessilary need these tools I described in the "Niceties" section, but they do make a bunch of tasks more convenient.
 \subsubsection{Power Cables}
@@ -183,7 +201,7 @@ Here are a few things I would recommend having for your workspace. They are by n
 \subsection{Rack or Case}
 I once was in a very popular modular synth shop on the west coast, and a salesperson told me that when it comes to cases I should "measure my ambition" before purchasing one. I felt like this wasn't fantastic advice considering every new comer wants the one that looks like a wall of knobs and blinking lights. Problem is, that one costs \$2,000... for just the case.\\
 \newline
-It can be daunting to find something that suites your needs and is affordable enough to get going. In the first part of our series, we will be building a power supply. In that case (no pun, for real), you have the ability to acquire something somewhat cheaper (as long as there is room to mount a small additional PCB (the power supply power bus <TODO -link)>.\\
+It can be daunting to find something that suites your needs and is affordable enough to get going. In the first part of our series, we will be building a power supply. In that case (no pun, for real), you have the ability to acquire something somewhat cheaper (as long as there is room to mount a small additional PCB (the power supply \href{https://github.com/joshpanzarella/AYOM-Power-Supply-Bus}{power bus}).\\
 \newline
 One of the first products that comes to mind is the \href{http://tiptopaudio.com/products/}{Tip Top Audio Z-Rails \& Ears}. Check the links on the bottom right in the DIY section.\\
 \newline
@@ -248,8 +266,8 @@ This section houses links to all of the GitHub repos that exist in the AYOM seri
 
 \subsubsection{DIY}
 \begin{itemize}
-	\item \href{URL}{Music From Outer Space}
-	\item \href{URL}{Yu Synth}
+	\item \href{http://musicfromouterspace.com}{Music From Outer Space} - The one and only. This site is where we will get most of our designs from!
+	\item \href{https://yusynth.net/index_en.php}{Yu Synth} - Also a fantastic resource for some different designs.
 \end{itemize}
 
 \subsubsection{Forums}
@@ -259,14 +277,14 @@ This section houses links to all of the GitHub repos that exist in the AYOM seri
 
 \subsubsection{Retailers}{\label{mod-retailers}
 \begin{itemize}
-	\item \href{URL}{Perfect Circuit}
-	\item \href{URL}{Thonk}
-	\item \href{URL}{Modular Addict}
+	\item \href{https://www.perfectcircuit.com}{Perfect Circuit}
+	\item \href{https://www.thonk.co.uk}{Thonk}
+	\item \href{https://modularaddict.com}{Modular Addict}
 \end{itemize}
 
 \subsubsection{Publications}
 \begin{itemize}
-	\item \href{URL}{Waveform Magazine}
+	\item \href{https://waveformmagazine.com}{Waveform Magazine} - Excellent magazine dedicated to all things modular, or as they put it, "a quarterly print magazine about sound synthesis and those who inhabit that world."
 \end{itemize}
 
 \subsection{Books}
